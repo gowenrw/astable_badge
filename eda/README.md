@@ -11,7 +11,13 @@ This is the file structure of this repository
 
 * [/](/README.md) - Home
 * [/eda](/eda/) - YOU ARE HERE
-  * /eda/altbier_pcb_<project>/ - KiCad project folder for the named project PCB(s)
+  * /eda/astable_badge/ - KiCad project folder for the badge PCB
+    * ./3d_models/ - This directory contains footprint 3d model files
+    * ./gerber/ - This directory contains gerber formatted files for manufacturing
+    * ./lib_fp/ - This directory contains footprint module directories
+    * ./lib_sh/ - This directory contains schematic library files
+    * ./snapshots/ - This directory contains prints of schematic / cad files and images of preview / final product
+  * /eda/astable_dev/ - KiCad project folder for the development PCB
     * ./3d_models/ - This directory contains footprint 3d model files
     * ./gerber/ - This directory contains gerber formatted files for manufacturing
     * ./lib_fp/ - This directory contains footprint module directories
