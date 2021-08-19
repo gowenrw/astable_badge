@@ -48,8 +48,20 @@ K cap capacitor
 F ~
 $ENDCMP
 #
+$CMP Conn_01x01
+D Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP Conn_01x02
 D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x05
+D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
 $ENDCMP
@@ -225,6 +237,30 @@ $ENDCMP
 $CMP SW_TS2306A
 D Tactile Switches SPST 3.00mm x 2.00mm 0.60mm 10mA @ 5VDC SMD RoHS
 F https://datasheet.lcsc.com/szlcsc/1904241742_SHOU-HAN-TS2306A-240gf-MSM-9_C388290.pdf
+$ENDCMP
+#
+$CMP TestPoint_01x01
+D Generic test point connector, single row, 01x01
+K testpoint test point connector
+F ~
+$ENDCMP
+#
+$CMP TestPoint_01x02
+D Generic test point connector, single row, 01x02
+K testpoint test point connector
+F ~
+$ENDCMP
+#
+$CMP TestPoint_01x05
+D Generic test point connector, single row, 01x05
+K testpoint test point connector
+F ~
+$ENDCMP
+#
+$CMP TestPoint_01x08
+D Generic test point connector, single row, 01x08
+K testpoint test point connector
+F ~
 $ENDCMP
 #
 $CMP USB_B_Micro
