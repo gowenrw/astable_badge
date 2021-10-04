@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Battery_CR2032
+D Single-cell CR2032 battery
+K battery cell cr2032
+F ~
+$ENDCMP
+#
+$CMP CP_Radial_D5
+D Polarized capacitor, US symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
 $CMP CP_Radial_D6
 D Polarized capacitor, US symbol
 K cap capacitor
@@ -36,8 +48,20 @@ K cap capacitor
 F ~
 $ENDCMP
 #
+$CMP Conn_01x01
+D Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP Conn_01x02
 D Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_01x05
+D Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
 F ~
 $ENDCMP
@@ -132,6 +156,12 @@ K LED diode
 F ~
 $ENDCMP
 #
+$CMP Q_2222A_TO92
+D 1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92
+K NPN Transistor
+F https://www.onsemi.com/pub/Collateral/PN2222-D.PDF
+$ENDCMP
+#
 $CMP R_0603
 D Resistor SMD
 K R res resistor
@@ -150,9 +180,39 @@ K R res resistor
 F ~
 $ENDCMP
 #
-$CMP R_Axial
+$CMP R_Axial_L3.6
 D Resistor
 K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R_Axial_L6.3
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R_Axial_Z_L3.6
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R_Axial_Z_L6.3
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R_POT_5mm
+D Potentiometer using all three pins as Voltage Divider
+K resistor variable voltage divider
+F ~
+$ENDCMP
+#
+$CMP R_RHE_5mm
+D Rheostat - 3 pin POT configured as Variable Resistor using 2 pins
+K resistor variable
 F ~
 $ENDCMP
 #
@@ -177,6 +237,30 @@ $ENDCMP
 $CMP SW_TS2306A
 D Tactile Switches SPST 3.00mm x 2.00mm 0.60mm 10mA @ 5VDC SMD RoHS
 F https://datasheet.lcsc.com/szlcsc/1904241742_SHOU-HAN-TS2306A-240gf-MSM-9_C388290.pdf
+$ENDCMP
+#
+$CMP TestPoint_01x01
+D Generic test point connector, single row, 01x01
+K testpoint test point connector
+F ~
+$ENDCMP
+#
+$CMP TestPoint_01x02
+D Generic test point connector, single row, 01x02
+K testpoint test point connector
+F ~
+$ENDCMP
+#
+$CMP TestPoint_01x05
+D Generic test point connector, single row, 01x05
+K testpoint test point connector
+F ~
+$ENDCMP
+#
+$CMP TestPoint_01x08
+D Generic test point connector, single row, 01x08
+K testpoint test point connector
+F ~
 $ENDCMP
 #
 $CMP USB_B_Micro
