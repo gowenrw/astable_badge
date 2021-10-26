@@ -12,7 +12,7 @@ This is where you will find information about the 3d6 badge and its repository.
 
 -- [@alt_bier](https://twitter.com/alt_bier)  - [My Contact Info](https://gowen.net/about)
 
-![Animated](astable_badge-animated.gif)
+![Animated](astable_badge_animated.gif)
 
 ---
 
