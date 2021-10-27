@@ -1,5 +1,5 @@
 # astable_badge
-BSidesDFW 2021 Badge - Astable Multivibrator - Learn To DIY
+BSidesDFW 2021 Badge - Astable Multivibrator - Learn To Solder/Electronics/DIY
 
 This is where all the files for the astable_badge will be stored.  
 This includes code and art and cad and fab files.  All the things.

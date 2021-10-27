@@ -6,9 +6,9 @@ layout: default
 
 # Astable Badge
 
-Welcome to the 3d6 Badge website.
+Welcome to the Astable Badge website.
 
-This is where you will find information about the 3d6 badge and its repository.
+This is where you will find information about the BSidesDFW 2021 Badge and its repository.
 
 -- [@alt_bier](https://twitter.com/alt_bier)  - [My Contact Info](https://gowen.net/about)
 
