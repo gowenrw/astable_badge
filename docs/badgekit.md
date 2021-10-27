@@ -18,7 +18,7 @@ The Astable Badge Kit contains the following items:
     *  2 - 0-30K ohm Variable Resistors (a.k.a. Rheostats)
     *  2 - 100uF Polarized Capacitors
     *  2 - NPN BJT 2222A Transistors
-    *  1 - CR2031 Battery Holder
+    *  1 - CR2032 Battery Holder
     *  1 - 5x1 header pin segment
 
 ![Kit1](astable_badge_kit_1.jpg)
